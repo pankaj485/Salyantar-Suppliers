@@ -1,44 +1,28 @@
-html,
-body {
+
+html,body {
   height: 100%;
 }
 
-
-  body  {
+  body
+  {
   width: 96%;
   background-color: rgba(49, 158, 185, 0.836);
   margin: auto;
   text-align: center;
-
-
 }
 
 
 .contain 
 {
  height: 70%;
-border-radius: 8px ;
+ border-radius: 8px ;
  background-image: url(./thumb.jpg);
-background-position: center;
-background-size: cover;
-
+ background-position: center;
+ background-size: cover;
 }
-  /* .contain {
-    height: 60%;
-    width: 100%;
-    margin-top: 10px;
-    border-radius: 5px ;
-    margin: auto;
-    background-image: url(./thumb.jpg);
-  padding-top: 10px ;
-      background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-  } 
- */
 
-  .top {
-
+.top 
+{
   border-radius: 5px;
   margin: auto;
   margin-top: 10px;
@@ -51,28 +35,28 @@ background-size: cover;
 
 .quote {
   color: rgb(255, 230, 0);
-   background-color:rgba(11, 47, 192, 0.507);  */
+  background-color:rgba(11, 47, 192, 0.507);  */
   margin-top: 30px;
-  margin-bottom: 20px;
-  padding-bottom: 10px;
+  margin-bottom: 30px;
+  padding: 5px;
   border-radius: 5px;
-
   font-weight: 800;
 }
 
-.address {
+
+.address 
+{
   color: rgba(52, 48, 253, 0.956);
   background-color: rgba(30, 241, 76, 0.781);
   font-weight: 600;
   margin-top: 20px ;
-
   padding: 5px;
   border-radius: 5px;
-
 }
 
 
-.contact {
+.contact 
+{
   border-radius: 5px;
   margin-bottom: 10px ;
   background-color:rgba(11, 47, 192, 0.507); 
@@ -83,7 +67,6 @@ background-size: cover;
 
 .contact ul 
 {
-  
   text-align: center;
   padding: 5px ;
   display: inline-flex ;
@@ -96,7 +79,6 @@ background-size: cover;
 {
   padding : 8px ;
   border-radius: 5px;
-
   background-color: red;
   width: 40%;
   justify-content: space-evenly;
@@ -105,24 +87,24 @@ background-size: cover;
 
 .contact ul :hover
 {
-  
   background-color: rgb(30, 241, 76);
-  
   color: black;
 }
 
 
-.contact a{
+.contact a
+{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color:whitesmoke;
-  font-weight: 400;
- padding: 3px ;
- border-radius: 5px ;
+  color: rgb(255, 255, 255);
+  font-weight: 550;
+  padding: 3px ;
+  border-radius: 5px ;
   text-decoration: none;
   text-transform: capitalize;
 }
 
 
-.margin {
+.margin
+ {
   margin-bottom: 50px;
 }
