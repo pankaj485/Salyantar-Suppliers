@@ -1,45 +1,107 @@
-html{
-  height:100%;
-}
+html,
 body {
-  background-color: lightslategrey;
-  /*background-image: url(image/thumb.jpg);*/
+  height: 100%;
+}
+
+body {
+  width: 97%;
+  background-color: rgba(49, 158, 185, 0.836);
+  margin: auto;
+  text-align: center;
+
+  /* background-image: url(./thumb.jpg); */
   background-size: cover;
- background-repeat: no-repeat;
+  background-repeat: no-repeat;
 }
-.change {
-  margin-left: auto;
-  margin-right: auto;
-  width: 1024px;
-  font-family: Arial, Helvetica, sans-serif;
+
+
+  .contain {
+    height: 48%;
+    width: 100%;
+    margin-top: 10px;
+    margin: auto;
+    background-image: url(./thumb.jpg);
+  padding-top: 10px ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+
+.top {
+  margin: auto;
+  margin-top: 10px;
+  width: 100%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: orange;
+  background-color:rgba(11, 47, 192, 0.507); 
+  font-weight: 900;
 }
-header {
-  height: 220px;
+
+.quote {
+  color: rgb(255, 230, 0);
+   background-color:rgba(11, 47, 192, 0.507);  */
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+
+  font-weight: 800;
+}
+
+.address {
+  color: rgba(52, 48, 253, 0.956);
+  background-color: rgba(30, 241, 76, 0.781);
+  font-weight: 600;
+
+  margin-top: 20px;
+  padding: 5px;
+}
+.image {
+  padding: 50px;
+  background-image: url("./thumb.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact {
+  background-color:rgba(11, 47, 192, 0.507); 
+/* background-color: oldlace; */
+}
+
+.contact ul 
+{
   text-align: center;
+  padding: 5px ;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
-nav {
-  background-color: green;
-  height: 30px;
+
+.contact li 
+{
+  padding : 5px ;
+  background-color: rgb(30, 241, 76);
+  width: 40%;
+  justify-content: space-evenly;
+  list-style: none;  
 }
-main {
-  height: 450px;
-  text-align: center;
-  padding-top: 0px;
-  padding-right: 80px;
-  padding-left: 200px;
+
+.contact ul :hover
+{
+  background-color: cadetblue;
+
 }
-footer {
-  background-color: green;
-  height: 40px;
+.contact a{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: black;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: capitalize;
 }
-h1 {
-  font-size: 40px;
-  color: indigo;
-}
-p {
-  font-size: 30px;
-}
-a {
-  color: purple;
-  font-family: Arial, Helvetica, sans-serif;
+
+
+.margin {
+  margin-bottom: 100px;
 }
